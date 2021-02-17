@@ -10,7 +10,7 @@ import { Student } from './student/student.model'
 export class AppComponent {
 
   students: Student[] = [
-    { name: 'Luke', isJedi: true, temple: 'Coruscant' },
+    { name: 'Luke', isJedi: true, temple:'Coruscant' },
     { name: 'Leia', isJedi: false },
     { name: 'Han', isJedi: false }
   ]
